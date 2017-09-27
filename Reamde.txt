@@ -1,0 +1,10 @@
+This program is a simple crossword solver, which takes a a 3x3 or 4x4 matrix, with some letters prefilled, and determines a possible solution 
+based on the most common English dictionary words. Designed and coded by Michael Austin, with the exception of the words34 dictionary, which 
+was borrowed from the DOGCAT project in Russell and Norvig's Artificial Intelligence: A Modern Approach, 3rd Edition.
+
+Project development plan:
+V1: Working crossword solver, which iterates through rows, and checks columns. (You are here)
+V2: Improve search speed by implementing a cross-hatching method, which fills in row->column->row->column
+V3: Further improve search speed by searching through most likely words first, regardless of position.
+V4: Expand dictionary size and length by building maxheap dictionary from publicly available documents
+V5: Using large dataset of existing crosswords, develop ML system to classify crossword clues using K-Nearest Neighbours approach.
