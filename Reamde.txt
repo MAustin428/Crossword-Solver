@@ -7,4 +7,4 @@ V1: Working crossword solver, which iterates through rows, and checks columns. (
 V2: Improve search speed by implementing a cross-hatching method, which fills in row->column->row->column
 V3: Further improve search speed by searching through most likely words first, regardless of position.
 V4: Expand dictionary size and length by building maxheap dictionary from publicly available documents
-V5: Using large dataset of existing crosswords, develop ML system to classify crossword clues using K-Nearest Neighbours approach.
+V5: Using large dataset of existing crosswords, develop ML system to classify crossword clues.
